@@ -58,8 +58,8 @@ export const Main = () => {
   const updatePoints = () =>
     {
       const points = userStore((state) => state.points);
-      // await fetch("https://lovetap-backend.vercel.app/user/addVote/?username=" + userName + "&womenId=" + setWomenID, {
-      fetch("http://localhost:4000/user/updatePoints/", {
+      fetch("https://lovetap-backend.vercel.app/user/updatePoints/", {
+      // fetch("http://localhost:4000/user/updatePoints/", {
         method: 'POST',
         headers: {
           'Access-Control-Allow-Origin' : '*',
