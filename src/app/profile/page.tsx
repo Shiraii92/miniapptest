@@ -1,10 +1,10 @@
-import { Laoder } from "@/common";
+import { Loader } from "@/common";
 import { Profile } from "@/pages-components";
 import { Suspense } from "react";
 
 function ProfilePage() {
   return (
-    <Suspense fallback={<Laoder />}>
+    <Suspense fallback={<Loader />}>
       <Profile />
     </Suspense>
   );

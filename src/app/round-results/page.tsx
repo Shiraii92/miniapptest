@@ -1,10 +1,10 @@
-import { Laoder } from "@/common";
+import { Loader } from "@/common";
 import { RoundResult } from "@/pages-components";
 import { Suspense } from "react";
 
 export default function RoundResultPage() {
   return (
-    <Suspense fallback={<Laoder />}>
+    <Suspense fallback={<Loader />}>
       <RoundResult />
     </Suspense>
   );

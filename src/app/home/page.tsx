@@ -1,10 +1,10 @@
-import { Laoder } from "@/common";
+import { Loader } from "@/common";
 import { Home } from "@/pages-components";
 import { Suspense } from "react";
 
 function HomePage() {
   return (
-    <Suspense fallback={<Laoder />}>
+    <Suspense fallback={<Loader />}>
       <Home />;
     </Suspense>
   );

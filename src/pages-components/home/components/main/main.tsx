@@ -40,7 +40,6 @@ export const Main = () => {
   const [depozet, setDepozet] = useState(false);
   const [yourPick, setYourPick] = useState(isFirst);
   const id = userStore((state) => state.id);
-  const points = userStore((state) => state.points);
 
   const handleBet = (player: any) => {
     setPlayer(player?.user);
@@ -56,13 +55,14 @@ export const Main = () => {
   }
   console.log("home page and roundId", roundId)
 
-  const updatePoint = () =>
+  const updatePoints = () =>
     {
+      const points = userStore((state) => state.points);
       // await fetch("https://lovetap-backend.vercel.app/user/addVote/?username=" + userName + "&womenId=" + setWomenID, {
       fetch("http://localhost:4000/user/updatePoints/", {
         method: 'POST',
         headers: {
-          "Access-Control-Allow-Origin" : "*",
+          'Access-Control-Allow-Origin' : '*',
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
@@ -88,7 +88,7 @@ export const Main = () => {
     }
   
     useEffect(() => {
-      setInterval(() => updatePoint(), 30000);
+      setInterval(() => updatePoints(), 30000);
     }, []);
 
   return (
