@@ -58,7 +58,7 @@ export const Main = () => {
   const updatePoints = () =>
     {
       const points = userStore((state) => state.points);
-      fetch("https://lovetap-backend.vercel.app/user/updatePoints/", {
+      fetch("https://flipbackend-shiraii92s-projects.vercel.app/user/updatePoints/", {
       // fetch("http://localhost:4000/user/updatePoints/", {
         method: 'POST',
         headers: {

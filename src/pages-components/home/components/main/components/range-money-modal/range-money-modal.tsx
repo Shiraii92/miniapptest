@@ -32,7 +32,7 @@ export const RangeMoneyModal = ({ open, close }: Props) => {
     if (step === "range") {
       setStep("points");
     } else {
-      fetch("https://lovetap-backend.vercel.app/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
+      fetch("https://flipbackend-shiraii92s-projects.vercel.app/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
       // fetch("http://localhost:4000/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
         method: 'GET',
         headers: {"Access-Control-Allow-Origin" : "*"}
