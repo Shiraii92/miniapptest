@@ -35,7 +35,7 @@ export const RangeMoneyModal = ({ open, close }: Props) => {
       fetch("https://miniapptest-backend2.vercel.app/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
       // fetch("http://localhost:4000/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
         method: 'GET',
-        headers: {"Access-Control-Allow-Origin" : "*"}
+        headers: {'Content-Type': 'application/json'}
       })
         .then(response => {
           if (!response.ok) {

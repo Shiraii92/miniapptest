@@ -62,8 +62,7 @@ export const Main = () => {
       // fetch("http://localhost:4000/user/updatePoints/", {
         method: 'POST',
         headers: {
-          'Access-Control-Allow-Origin' : '*',
-          'Content-Type': 'application/json',
+                    'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           id: id,
