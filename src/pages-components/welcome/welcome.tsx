@@ -90,7 +90,6 @@ export const WelcomePage = () => {
       // fetch("http://localhost:4000/user/loginUser/", {
         method: 'POST',
         headers: {
-          'Access-Control-Allow-Origin' : '*',
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
