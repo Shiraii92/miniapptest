@@ -80,10 +80,10 @@ export const WelcomePage = () => {
   }
 
   useEffect(() => {
-    if(initData?.user?.username != null){
-      console.log("useEffect===>")
-
-      setUserName(initData?.user?.username); 
+    if (initData?.user?.username != null) {
+      console.log("useEffect===>");
+  
+      setUserName(initData?.user?.username);
       setLoading(true);
       fetch("https://miniapptest-backend2.vercel.app/user/loginUser", {
         method: 'POST',
@@ -121,7 +121,8 @@ export const WelcomePage = () => {
         console.error('There was a problem with your fetch operation:', error);
       });
     }
-  }, [initData]);
+  }, [initData, setUserName, setLoading, setIsFirst, setId, setPoints, setavatar, setTopPick, setGameStatus, setRoundId, setEndAt, setVotes]);
+  
 
   if (topPick > 0) {
     router.push('/home');

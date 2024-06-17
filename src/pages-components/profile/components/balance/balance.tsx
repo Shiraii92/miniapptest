@@ -2,6 +2,7 @@
 import { DollorIcon } from "@/icons";
 import styles from "./balance.module.css";
 import { userStore } from "../../../../stores/store";
+import Image from "next/image"; // Importiere das Image-Component
 
 export const Balance = () => {
   const points = userStore((state) => state.points);
@@ -22,9 +23,11 @@ export const Balance = () => {
             {points.toLocaleString()}
           </h2>
         </div>
-        <img
-          src="/images/balance-bg.png"
+        <Image
+          src="/images/balance-bg.png" // Verwende das Image-Component von next/image
           alt="bg"
+          layout="fill" // Fülle den Container vollständig aus
+          objectFit="cover" // Stelle sicher, dass das Bild den gesamten Bereich abdeckt
           className="absolute bottom-0"
         />
       </div>
