@@ -7,17 +7,16 @@ export const FirstStep = () => {
     <div>
       <div className="flex justify-center pt-8">
         <h1 className="flex text-[19px] text-[#FCFCFC] font-bold leading-[22.99px] text-center">
-          Welcome to LOVE
+          Welcome to the FLIPPENING
           <div
             className={`px-[14px] ml-[4px] text-sm font-medium leading-[22px] tracking-[-0.40799999237060547px] text-right text-[#FCFCFC] rotate-[-5deg] rounded-[20px] ${styles.tap} `}
           >
-            Tap
+            Game
           </div>
         </h1>
       </div>
       <p className="text-center mt-2 text-[#FCFCFC] text-base font-normal leading-[19.2px] tracking-[-0.40799999237060547px]">
-        Meet <span className={`${styles.liear_text}`}>Bradley,</span> our dream
-        bachelor!
+        Meet <span className={`${styles.liear_text}`}>Flip,</span> the Flippening Prophet!
       </p>
       <div className="px-7 pt-11 relative">
         <div
@@ -39,7 +38,7 @@ export const FirstStep = () => {
               Age:
             </p>
             <p className="drop-shadow-[0px_4px_4px_0px_#00000040] text-xs font-medium leading-[22px] tracking-[-0.40799999237060547px] text-left">
-              34
+              42 days
             </p>
           </div>
           <div>
@@ -47,7 +46,7 @@ export const FirstStep = () => {
               Interests:
             </p>
             <p className="  drop-shadow-[0px_4px_4px_0px_#00000040] text-xs font-medium leading-[22px] tracking-[-0.40799999237060547px] text-left">
-              sports, art, traveling
+              Juggling, Videogames, Trading
             </p>
           </div>
           <div>
@@ -55,7 +54,7 @@ export const FirstStep = () => {
               Goal:
             </p>
             <p className="drop-shadow-[0px_4px_4px_0px_#00000040] text-xs font-medium leading-[22px] tracking-[-0.40799999237060547px] text-left">
-              to find true love
+             find the next Flippening
             </p>
           </div>
         </div>
@@ -83,7 +82,7 @@ export const FirstStep = () => {
       <div className="px-[18px] w-full">
         <div className="py-[21px] px-[13px]  border-[1.5px] border-solid border-[#FFFFFF80] rounded-[20px] mt-6">
           <p className=" text-[#FCFCFC] text-base font-normal leading-[19.2px] tracking-[-0.40799999237060547px] text-left">
-            We have 32 amazing women dreaming of a date with Bradley. Each week,
+            We have 32 coin projects dreaming of becoming the Nr. 1 cryptocurrency . Each week,
             you can vote for who advances in the tournament. You can also bet on
             the winners of each round.
           </p>
