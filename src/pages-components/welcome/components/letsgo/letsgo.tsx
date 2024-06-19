@@ -43,8 +43,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
           Let's get started!
         </h1>
         <p className="text-base font-normal w-[75%]  mt-2  mb-6 text-[#FCFCFC] leading-[19.2px] text-[#FCFCFC]] tracking-[-0.40799999237060547px] text-center">
-          We'll now to go the tournament bracket where you can place your votes
-          and bets on each round.
+        Immerse yourself in the role of a developer and propel your project to the very top!
         </p>
         <Button onClick={() => setIsLetsgo(true)}>Continue</Button>
       </div>
