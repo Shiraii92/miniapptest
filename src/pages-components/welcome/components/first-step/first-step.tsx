@@ -38,7 +38,7 @@ export const FirstStep = () => {
               Age:
             </p>
             <p className="drop-shadow-[0px_4px_4px_0px_#00000040] text-xs font-medium leading-[22px] tracking-[-0.40799999237060547px] text-left">
-              42 days
+              42d
             </p>
           </div>
           <div>
@@ -46,7 +46,7 @@ export const FirstStep = () => {
               Interests:
             </p>
             <p className="  drop-shadow-[0px_4px_4px_0px_#00000040] text-xs font-medium leading-[22px] tracking-[-0.40799999237060547px] text-left">
-              Juggling, Videogames, Trading
+              Juggle, play vg, trade
             </p>
           </div>
           <div>
@@ -76,13 +76,13 @@ export const FirstStep = () => {
         <div
           className={` ${styles.crile_shadow} w-[65px] flex justify-center items-center h-[65px] rounded-full bg-white absolute top-[107px] right-[5px]`}
         >
-          <Image src="/images/rose.png" alt="fire" width={36} height={37} />
+          <Image src="/images/first-leader.png" alt="fire" width={36} height={37} />
         </div>
       </div>
       <div className="px-[18px] w-full">
         <div className="py-[21px] px-[13px]  border-[1.5px] border-solid border-[#FFFFFF80] rounded-[20px] mt-6">
           <p className=" text-[#FCFCFC] text-base font-normal leading-[19.2px] tracking-[-0.40799999237060547px] text-left">
-            We have 32 coin projects dreaming of becoming the Nr. 1 cryptocurrency . Each week,
+            There are 32 projects dreaming of becoming the Nr. 1 cryptocurrency. Each week,
             you can vote for who advances in the tournament. You can also bet on
             the winners of each round.
           </p>
