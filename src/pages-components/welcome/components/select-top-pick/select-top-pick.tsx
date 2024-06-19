@@ -24,7 +24,7 @@ export const SelectTopPick = () => {
             key={index}
             user={{
               name: user.name,
-              img: "/avatars/avatar-" + user.id +".png"
+              img: "/avatars/avatar-" + (user.id + 1) +".png"
             }}
           />
         ))}
