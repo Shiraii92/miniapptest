@@ -9,7 +9,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
   return (
     <div className="min-h-[90vh] px-[18px] flex flex-col justify-center items-center">
       <Image
-        src={"https://i.ibb.co/VmpCFyp/letsgo-assents-01.png"}
+        src="/public/images/letsgo-assents-01.png"
         loader={({src}) => src}
         quality={70}
         alt="img"
@@ -19,7 +19,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         className="absolute bottom-0 right-0"
       />
       <Image
-        src={"https://i.ibb.co/3CGSzyj/letsgo-assents-02.png"}
+        src="/public/images/letsgo-assents-02.png"
         loader={({src}) => src}
         quality={70}
         alt="img"
@@ -29,7 +29,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         className="absolute top-0 left-0"
       />
       <Image
-        src={"https://i.ibb.co/VBSZDB0/letsgo-assents-03.png"}
+        src="/public/images/letsgo-assents-03.png"
         loader={({src}) => src}
         quality={70}
         alt="img"
