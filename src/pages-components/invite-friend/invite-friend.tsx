@@ -33,11 +33,11 @@ export const InviteFriend = () => {
       </p>
       <div className='flex justify-center pt-2'>
         <h1 className='  flex text-[19px] text-[#FCFCFC] font-bold leading-[22.99px] text-center'>
-          LOVE
+          Flippening
           <div
             className={`px-[14px] ml-[4px] text-sm font-medium leading-[22px] tracking-[-0.40799999237060547px] text-right text-[#FCFCFC] rotate-[-5deg] rounded-[20px] ${styles.tap} `}
           >
-            Tap
+            Game
           </div>
         </h1>
       </div>

@@ -1,6 +1,5 @@
 "use client";
 import { Button } from "@/common";
-import { tree } from "next/dist/build/templates/app-page";
 import Image from "next/image";
 import { Props } from "./types";
 
@@ -9,8 +8,8 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
   return (
     <div className="min-h-[90vh] px-[18px] flex flex-col justify-center items-center">
       <Image
-        src="/public/images/letsgo-assents-01.png"
-        loader={({src}) => src}
+        src="/images/letsgo-assents-01.png"
+        loader={({ src }) => src}
         quality={70}
         alt="img"
         width={120}
@@ -19,8 +18,8 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         className="absolute bottom-0 right-0"
       />
       <Image
-        src="/public/images/letsgo-assents-02.png"
-        loader={({src}) => src}
+        src="/images/letsgo-assents-02.png"
+        loader={({ src }) => src}
         quality={70}
         alt="img"
         width={120}
@@ -29,8 +28,8 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         className="absolute top-0 left-0"
       />
       <Image
-        src="/public/images/letsgo-assents-03.png"
-        loader={({src}) => src}
+        src="/images/letsgo-assents-03.png"
+        loader={({ src }) => src}
         quality={70}
         alt="img"
         width={58}
@@ -42,8 +41,8 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         <h1 className="text-[19px] font-bold leading-[22.99px] text-center text-[#FCFCFC]">
           Let's get started!
         </h1>
-        <p className="text-base font-normal w-[75%]  mt-2  mb-6 text-[#FCFCFC] leading-[19.2px] text-[#FCFCFC]] tracking-[-0.40799999237060547px] text-center">
-        Immerse yourself in the role of a developer and propel your project to the very top!
+        <p className="text-base font-normal w-[75%] mt-2 mb-6 text-[#FCFCFC] leading-[19.2px] tracking-[-0.40799999237060547px] text-center">
+          Immerse yourself in the role of a developer and propel your project to the very top!
         </p>
         <Button onClick={() => setIsLetsgo(true)}>Continue</Button>
       </div>

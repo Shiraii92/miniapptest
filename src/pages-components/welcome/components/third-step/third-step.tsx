@@ -15,7 +15,7 @@ export const ThirdStep = ({ handleContinue }: Props) => {
     <div>
       <div className="flex justify-center pt-8">
         <h1 className="flex text-[19px] text-[#FCFCFC] font-bold leading-[22.99px] text-center">
-          Welcome to LOVE
+          Welcome to FLIP
           <div
             className={`px-[14px] ml-[4px] text-sm font-medium leading-[22px] tracking-[-0.40799999237060547px] text-right text-[#FCFCFC] rotate-[-5deg] rounded-[20px] ${styles.tap} `}
           >
