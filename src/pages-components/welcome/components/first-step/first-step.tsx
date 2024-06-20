@@ -46,7 +46,7 @@ export const FirstStep = () => {
               Interests:
             </p>
             <p className="  drop-shadow-[0px_4px_4px_0px_#00000040] text-xs font-medium leading-[22px] tracking-[-0.40799999237060547px] text-left">
-              Juggle, play vg, trade
+              juggle, play vg, trade
             </p>
           </div>
           <div>
