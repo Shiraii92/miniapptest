@@ -8,7 +8,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
   return (
     <div className="min-h-[90vh] px-[18px] flex flex-col justify-center items-center">
       <Image
-        src="/images/letsgo-assents-01.png"
+        src="/images/flipcoin.png"
         loader={({ src }) => src}
         quality={70}
         alt="img"
@@ -18,7 +18,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         className="absolute bottom-0 right-0"
       />
       <Image
-        src="/images/letsgo-assents-02.png"
+        src="/images/sol.png"
         loader={({ src }) => src}
         quality={70}
         alt="img"
@@ -28,7 +28,7 @@ export const Letsgo = ({ setIsLetsgo }: Props) => {
         className="absolute top-0 left-0"
       />
       <Image
-        src="/images/letsgo-assents-03.png"
+        src="/images/ton.png"
         loader={({ src }) => src}
         quality={70}
         alt="img"
