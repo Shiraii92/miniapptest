@@ -64,7 +64,7 @@ export const User = () => {
         </div>
       </div>
       <div className="px-[18px] pt-[48px]">
-        <Button>Vote for Anna</Button>
+        <Button>Vote for Ton</Button>
       </div>
     </NextBgImage>
   );

@@ -12,7 +12,7 @@ export const SecondStep = () => {
           <div
             className={`px-[14px] ml-[4px] text-sm font-medium leading-[22px] tracking-[-0.40799999237060547px] text-right text-[#FCFCFC] rotate-[-5deg] rounded-[20px] ${styles.tap} `}
           >
-            Tap
+            Game
           </div>
         </h1>
       </div>

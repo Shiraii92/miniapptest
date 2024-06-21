@@ -20,7 +20,7 @@ export const DailyPage = () => {
           Daily Reveal
         </h1>
         <p className="text-base w-[70%] text-[#FCFCFC]  mt-2 text-center font-normal leading-[19.2px] tracking-[-0.40799999237060547px]">
-          Every day, you'll receive a new fact or clue about Bradley.
+          Every day, you'll receive a new fact or clue about ....
         </p>
       </div>
       <div className="px-[18px] pt-[24px]">
@@ -31,7 +31,7 @@ export const DailyPage = () => {
             Day 5, Clue Card
           </p>
           <p className="text-xl font-medium leading-7 mt-[24px] text-center text-[#FFFFFF]">
-            Bradley’s last 2 girlfriends have both been blondes
+            .....
           </p>
         </div>
       </div>

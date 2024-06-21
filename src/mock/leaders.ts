@@ -1,46 +1,46 @@
 export const LEADERS = [
     {
-        name:"Marsha",
+        name:"Ton",
         image:"/avatars/avatar-1.png",
         point:45
     },
     {
-        name:"Amanda",
+        name:"Ton",
         image:"/avatars/avatar-2.png",
         point:40
     },
     {
-        name:"Victoria",
+        name:"Ton",
         image:"/avatars/avatar-3.png",
         point:35
     },
     {
-        name:"Lusy",
+        name:"Ton",
         image:"/avatars/avatar-4.png",
         point:33
     },
     {
-        name:"Emma",
+        name:"Ton",
         image:"/avatars/avatar-5.png",
         point:31
     },
     {
-        name:"Becky",
+        name:"Ton",
         image:"/avatars/avatar-6.png",
         point:30
     },
     {
-        name:"Victoria",
+        name:"Ton",
         image:"/avatars/avatar-7.png",
         point:27
     },
     {
-        name:"Victoria",
+        name:"Ton",
         image:"/avatars/avatar-8.png",
         point:25
     },
     {
-        name:"Anna",
+        name:"Ton",
         image:"/avatars/avatar-8.png",
         point:23
     }

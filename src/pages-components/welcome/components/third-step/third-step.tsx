@@ -19,7 +19,7 @@ export const ThirdStep = ({ handleContinue }: Props) => {
           <div
             className={`px-[14px] ml-[4px] text-sm font-medium leading-[22px] tracking-[-0.40799999237060547px] text-right text-[#FCFCFC] rotate-[-5deg] rounded-[20px] ${styles.tap} `}
           >
-            Tap
+            Game
           </div>
         </h1>
       </div>
@@ -57,9 +57,7 @@ export const ThirdStep = ({ handleContinue }: Props) => {
       <div className="px-[18px] w-full">
         <div className="py-[21px] px-[13px]  border-[1.5px] border-solid border-[#FFFFFF80] rounded-[20px] mt-6">
           <p className=" text-[#FCFCFC] text-base font-normal leading-[22px] tracking-[-0.40799999237060547px] text-left">
-            Now, before we get started, you have to pick which woman you think
-            is going to win the entire tournament, and if you’re correct, you’ll
-            be awarded 1,000,000 points
+            discover cluster weekend amazing coast engine insect clutch group spirit panther goat ski fossil group among vocal elder inherit tip position ready wash spoil
           </p>
         </div>
       </div>

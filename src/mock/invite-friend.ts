@@ -7,19 +7,19 @@ export const INVITE_FRIEND = [
   },
   {
     image: "/avatars/avatar-2.png",
-    name: "Anna",
+    name: "Ton",
     phone_number: "+233 2471 72 944",
     status: false,
   },
   {
     image: "/avatars/avatar-3.png",
-    name: "Emma",
+    name: "Ton",
     phone_number: "+233 2471 72 944",
     status: false,
   },
   {
     image: "/avatars/avatar-4.png",
-    name: "Amanda",
+    name: "Ton",
     phone_number: "+233 2471 72 944",
     status: true,
   },

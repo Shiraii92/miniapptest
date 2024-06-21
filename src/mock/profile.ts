@@ -1,8 +1,8 @@
 export const ACTIVE_WAGERS = [
   {
     date: "Match 1",
-    firstuser: "Amanda",
-    seconduser: "Becky",
+    firstuser: "Ton",
+    seconduser: "Ton",
     point: 500,
   },
   {

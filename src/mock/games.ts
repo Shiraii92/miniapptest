@@ -140,14 +140,14 @@ export const NEW_GAMES = [
         index:0
       },
       {
-        user: "Amanda",
+        user: "Ton",
         img: "/avatars/avatar-2.png",
         count: 0,
         id: 2,
         index:0
       },
       {
-        user: "EMMA",
+        user: "Ton",
         img: "/avatars/avatar-3.png",
         count: 0,
         id: 3,
@@ -163,28 +163,28 @@ export const NEW_GAMES = [
 
       },
       {
-        user: "Lusy",
+        user: "Ton",
         id: 1,
         img: "/avatars/avatar-5.png",
         count: 0,
         index:2
       },
       {
-        user: "Annet",
+        user: "Ton",
         img: "/avatars/avatar-6.png",
         count: 0,
         id: 2,
         index:2
       },
       {
-        user: "Victoria",
+        user: "Ton",
         img: "/avatars/avatar-7.png",
         count: 0,
         id: 3,
         index:3
       },
       {
-        user: "Marsha",
+        user: "Ton",
         img: "/avatars/avatar-8.png",
         count: 0,
         id: 4,

@@ -1,33 +1,33 @@
 export const BROKETS = [
     {
         image:"/avatars/avatar-1.png",
-        name:"Marsha",
+        name:"Ton",
         id: 1
 
     },
     {
         image:"/avatars/avatar-2.png",
-        name:"Amanda",
+        name:"Ton",
         id: 2
     },
     {
         image:"/avatars/avatar-3.png",
-        name:"Victoria",
+        name:"Ton",
         id: 3
     },
     {
         image:"/avatars/avatar-4.png",
-        name:"Lusy",
+        name:"Ton",
         id: 4
     },
     {
         image:"/avatars/avatar-5.png",
-        name:"Emma",
+        name:"Ton",
         id: 5
     },
     {
         image:"/avatars/avatar-6.png",
-        name:"Becky",
+        name:"Ton",
         id: 6
     },
     {
@@ -42,33 +42,33 @@ export const BROKETS = [
     },
     {
         image:"/avatars/avatar-9.png",
-        name:"Marsha",
+        name:"Ton",
         id: 9
     },
     {
         image:"/avatars/avatar-10.png",
-        name:"Amanda",
+        name:"Ton",
         id:10
     },
     {
         image:"/avatars/avatar-11.png",
-        name:"Victoria",
+        name:"Ton",
         id:11
     },
     {
         image:"/avatars/avatar-12.png",
-        name:"Lusy",
+        name:"Ton",
         id:12
     },
     {
         image:"/avatars/avatar-13.png",
-        name:"Emma",
+        name:"Ton",
         id:13
 
     },
     {
         image:"/avatars/avatar-14.png",
-        name:"Becky",
+        name:"Ton",
         id:14
     },
     {
