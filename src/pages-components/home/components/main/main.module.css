@@ -7,11 +7,11 @@
 }
 
 .button_bg {
-  background: linear-gradient(90deg, #9454b7 0%, #c962b4 100%);
+  background: linear-gradient(90deg, #5137fc 0%, #12d1f7 100%);
 }
 
 .vote_button_bg {
-  background: linear-gradient(90deg, #9454b7 0%, #c962b4 100%);
+  background: linear-gradient(90deg, #5137fc 0%, #12d1f7 100%);
 }
 
 .button_disabled {
