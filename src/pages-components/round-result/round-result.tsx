@@ -45,15 +45,15 @@ export const RoundResult = () => {
         <Card
           matchTitle="Match 1"
           firstUser={{
-            name: "Ton",
+            name: "BONK",
             procent: 64,
           }}
           secondUser={{
-            name: "Ton",
+            name: "TON",
             procent: 36,
           }}
           winuser={{
-            name: "Ton",
+            name: "BONK",
             image: "/avatars/avatar-1.png",
           }}
           result="You won 50 points!"
@@ -61,15 +61,15 @@ export const RoundResult = () => {
         <Card
           matchTitle="Match 2"
           firstUser={{
-            name: "Ton",
+            name: "BRETT",
             procent: 69,
           }}
           secondUser={{
-            name: "Ton",
+            name: "TON",
             procent: 32,
           }}
           winuser={{
-            name: "Ton",
+            name: "BRETT",
             image: "/avatars/avatar-2.png",
           }}
           result="Oh, you lost 45 points..."

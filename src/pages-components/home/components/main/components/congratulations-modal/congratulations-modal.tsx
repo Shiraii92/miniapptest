@@ -65,7 +65,7 @@ export const CongratulationsModal = ({ open, close }: Props) => {
           Congratulations!
         </h1>
         <p className="text-base text-[#FCFCFC] mt-2 text-center font-normal leading-[19.2px] tracking-[-0.40799999237060547px] ">
-          You've unlocked a new image of <br /> NATASHA.
+          You've unlocked a new image of <br /> BONK.
         </p>
         <div className="px-[18px] mt-8">
           <Button onClick={continueHandle}>Continue</Button>

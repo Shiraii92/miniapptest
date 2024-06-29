@@ -36,10 +36,10 @@ export const InviteFriendModal = ({ open, close }: Props) => {
           </div>
         </div>
         <h1 className="text-[22px] mt-4 font-bold leading-[30.8px] text-center text-[#FCFCFC]">
-          You voted for NATASHA
+          You voted for BONK
         </h1>
         <p className="text-base text-[#FCFCFC] my-2 font-normal leading-[19.2px] tracking-[-0.40799999237060547px] text-center">
-          If she wins, you will get{" "}
+          If Bonk wins, you will get{" "}
         </p>
         <div className="flex justify-center">
           <h3
