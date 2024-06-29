@@ -37,14 +37,20 @@ export const User = () => {
           />
         </div>
         <h1 className="text-[25px] mt-3 text-[#FCFCFC] font-medium leading-[35px] text-center">
-          BONK
+          Nadila
         </h1>
       </div>
       <div className="px-[18px] mt-[8px]">
         <div className=" border rounded-[10px] border-solid border-[#F2F2F229] py-[6px] px-[16px]">
-          <ListItem label="CMC Rank:" value="" />
-          <ListItem label="Blockchain:" value="Solana" />
-          <ListItem label="MarketCap:" value="" />
+          <ListItem label="Age:" value="28" />
+          <ListItem label="Nationality:" value="Slovenia" />
+          <ListItem label="Height:" value="170 cm" />
+          <ListItem label="Body Type:" value="Athletic" />
+          <ListItem
+            label="Eye Color:"
+            value="Blue"
+            className="border-b-transparent mb-0"
+          />
         </div>
       </div>
       <div className="px-[18px] pt-[22px]">
@@ -58,7 +64,7 @@ export const User = () => {
         </div>
       </div>
       <div className="px-[18px] pt-[48px]">
-        <Button>Vote for BONK</Button>
+        <Button>Vote for Anna</Button>
       </div>
     </NextBgImage>
   );

@@ -2,12 +2,12 @@ export const GAMES = [
   {
     groups: [
       {
-        user: "User",
+        user: "BONK",
         img: "/avatars/avatar-1.png",
         count: 0,
       },
       {
-        user: "User",
+        user: "BRETT",
         img: "/avatars/avatar-2.png",
         count: 0,
       },
@@ -16,12 +16,12 @@ export const GAMES = [
   {
     groups: [
       {
-        user: "User",
+        user: "BROTON",
         img: "/avatars/avatar-3.png",
         count: 0,
       },
       {
-        user: "User",
+        user: "CATIZEN",
         img: "/avatars/avatar-4.png",
         count: 0,
       },
@@ -31,42 +31,42 @@ export const GAMES = [
 
 export const GAMES1 = [
   {
-    username: "User",
+    username: "BONK",
     img: "/avatars/avatar-1.png",
     win: [1],
   },
   {
-    username: "User",
+    username: "BRETT",
     img: "/avatars/avatar-2.png",
     win: [0],
   },
   {
-    username: "User",
+    username: "BROTON",
     img: "/avatars/avatar-3.png",
     win: [0],
   },
   {
-    username: "User",
+    username: "CATIZEN",
     img: "/avatars/avatar-4.png",
     win: [1],
   },
   {
-    username: "User",
+    username: "CRYPTON",
     img: "/avatars/avatar-5.png",
     win: [1],
   },
   {
-    username: "User",
+    username: "DOGE",
     img: "/avatars/avatar-6.png",
     win: [0],
   },
   {
-    username: "User",
+    username: "CRYPTON",
     img: "/avatars/avatar-5.png",
     win: [1],
   },
   {
-    username: "User",
+    username: "DOGE",
     img: "/avatars/avatar-6.png",
     win: [0],
   },
@@ -76,12 +76,12 @@ export const ROUND2 = [
   {
     groups: [
       {
-        user: "User",
+        user: "BROTON",
         img: "/avatars/avatar-3.png",
         count: 0,
       },
       {
-        user: "User",
+        user: "CATIZEN",
         img: "/avatars/avatar-4.png",
         count: 0,
       },
@@ -93,7 +93,7 @@ export const ROUND3 = [
   {
     groups: [
       {
-        user: "User",
+        user: "CATIZEN",
         img: "/avatars/avatar-4.png",
         count: 0,
       },
@@ -105,11 +105,11 @@ export const GAMES2 = [
   {
     groups: [
       {
-        username: "user1",
+        username: "BONK",
         img: "/avatars/avatar-1.png",
       },
       {
-        username: "user2",
+        username: "BRETT",
         img: "/avatars/avatar-2.png",
       },
     ],
@@ -117,11 +117,11 @@ export const GAMES2 = [
   {
     groups: [
       {
-        username: "user3",
+        username: "BROTON",
         img: "/avatars/avatar-3.png",
       },
       {
-        username: "user4",
+        username: "CATIZEN",
         img: "/avatars/avatar-4.png",
       },
     ],
@@ -133,21 +133,21 @@ export const NEW_GAMES = [
     round: 1,
     groups: [
       {
-        user: "NATASHA",
+        user: "BONK",
         id: 1,
         img: "/avatars/avatar-1.png",
         count: 0,
         index:0
       },
       {
-        user: "Ton",
+        user: "BRETT",
         img: "/avatars/avatar-2.png",
         count: 0,
         id: 2,
         index:0
       },
       {
-        user: "Ton",
+        user: "BROTON",
         img: "/avatars/avatar-3.png",
         count: 0,
         id: 3,
@@ -155,7 +155,7 @@ export const NEW_GAMES = [
 
       },
       {
-        user: "ROZA",
+        user: "CATIZEN",
         img: "/avatars/avatar-4.png",
         count: 0,
         id: 4,
@@ -163,28 +163,28 @@ export const NEW_GAMES = [
 
       },
       {
-        user: "Ton",
+        user: "CRYPTON",
         id: 1,
         img: "/avatars/avatar-5.png",
         count: 0,
         index:2
       },
       {
-        user: "Ton",
+        user: "DOGE",
         img: "/avatars/avatar-6.png",
         count: 0,
         id: 2,
         index:2
       },
       {
-        user: "Ton",
+        user: "DOGWIFHAT",
         img: "/avatars/avatar-7.png",
         count: 0,
         id: 3,
         index:3
       },
       {
-        user: "Ton",
+        user: "FLIP",
         img: "/avatars/avatar-8.png",
         count: 0,
         id: 4,
