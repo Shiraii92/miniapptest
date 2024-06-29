@@ -55,7 +55,7 @@ export const Main = () => {
   };
 
   const updatePoints = useCallback(() => {
-    fetch("https://miniapptest-backend2.vercel.app/user/updatePoints/", {
+    fetch("https://miniapptest-backend2.vercel.app/user/updatePoints", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
