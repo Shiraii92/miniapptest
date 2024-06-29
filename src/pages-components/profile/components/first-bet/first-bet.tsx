@@ -28,7 +28,7 @@ export const FirstBet = () => {
             You chose {womens.at(topPick-1)?.name} to win the tournament.
           </h2>
           <p className="text-[#FCFCFC] mt-[10px] text-xs font-normal leading-[14.4px] tracking-[-0.40799999237060547px] text-left">
-            If she wins, you will get{" "}
+            If your project wins, you will get{" "}
             <span className="font-[600]">1,000,000</span> points.
           </p>
         </div>
