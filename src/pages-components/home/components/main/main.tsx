@@ -33,6 +33,8 @@ export const Main = () => {
   const setPlayerId = tmpbetStore((state) => state.setPlayerId);
   const gameStatus = gameStore((state: { gameStatus: Array<GameStatus> }) => state.gameStatus);
   const roundId = gameStore((state) => state.roundId);
+  const setRoundId = gameStore((state) => state.setRoundId);
+  const setGameStatus = gameStore((state) => state.setGameStatus);
   const isFirst = userStore((state) => state.isFirst);
   const [currentRound, setCurrentRound] = useState(0);
   const [open, setOpen] = useState(false);
@@ -53,6 +55,31 @@ export const Main = () => {
     }
     return false;
   };
+
+  const fetchGameData = async () => {
+    try {
+      const response = await fetch('https://miniapptest-backend2.vercel.app/game/status', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      const data = await response.json();
+      setGameStatus(data.gameStatus);
+      setRoundId(data.currentRound.roundId);
+    } catch (error) {
+      console.error('There was a problem with your fetch operation:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchGameData();
+  }, []);
 
   const updatePoints = useCallback(() => {
     fetch("https://miniapptest-backend2.vercel.app/user/updatePoints", {
