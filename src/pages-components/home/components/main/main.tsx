@@ -58,28 +58,33 @@ export const Main = () => {
 
   const fetchGameData = async () => {
     try {
-      const response = await fetch('https://miniapptest-backend2.vercel.app/game/status', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
+        const response = await fetch('https://miniapptest-backend2.vercel.app/user/getGameStatus', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
 
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
 
-      const data = await response.json();
-      if (data.currentRound && data.currentRound.roundId) {
-        setGameStatus(data.gameStatus);
-        setRoundId(data.currentRound.roundId);
-      } else {
-        console.error('Invalid data format:', data);
-      }
+        const data = await response.json();
+        if (data.currentRound && data.currentRound.roundId) {
+            setGameStatus(data.gameStatus);
+            setRoundId(data.currentRound.roundId);
+        } else {
+            console.error('Invalid data format:', data);
+        }
     } catch (error) {
-      console.error('There was a problem with your game fetch operation:', error);
+        console.error('There was a problem with your game fetch operation:', error);
     }
-  };
+};
+
+useEffect(() => {
+    fetchGameData();
+}, []);
+
 
   useEffect(() => {
     fetchGameData();
