@@ -70,8 +70,12 @@ export const Main = () => {
       }
 
       const data = await response.json();
-      setGameStatus(data.gameStatus);
-      setRoundId(data.currentRound.roundId);
+      if (data.currentRound && data.currentRound.roundId) {
+        setGameStatus(data.gameStatus);
+        setRoundId(data.currentRound.roundId);
+      } else {
+        console.error('Invalid data format:', data);
+      }
     } catch (error) {
       console.error('There was a problem with your fetch operation:', error);
     }
