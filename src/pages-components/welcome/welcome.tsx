@@ -85,7 +85,7 @@ export const WelcomePage = () => {
   
       setUserName(initData?.user?.username);
       setLoading(true);
-      fetch("https://miniapptest-backend2.vercel.app/user/loginUser", {
+      fetch("https://miniapptest-backend2.vercel.app/user/loginUser/", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
