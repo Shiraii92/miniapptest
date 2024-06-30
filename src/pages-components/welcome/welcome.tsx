@@ -122,10 +122,10 @@ export const WelcomePage = () => {
           setRoundId(data.currentRound.roundId);
           setEndAt(data.currentRound.endAt);
         }
-        if (data.userInfo.votes) {
-          setVotes(data.userInfo.votes);
+        if (data.userInfo.vote_data) {
+          setVotes(data.userInfo.vote_data.split(',')); // assuming votes are stored in vote_data as comma-separated values
         } else {
-          setVotes([500]); // Oder ein anderer Standardwert
+          setVotes([]); // Oder ein anderer Standardwert
         }
         console.log("response");
       })
