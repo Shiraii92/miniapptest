@@ -49,7 +49,7 @@ export const RangeMoneyModal = ({ open, close }: Props) => {
         })
         .catch(error => {
           // Handle any errors that occurred during the fetch
-          console.error('There was a problem with your fetch operation:', error);
+          console.error('There was a problem with your Bets & Points fetch operation:', error);
         });
       setStep("range");
       close();

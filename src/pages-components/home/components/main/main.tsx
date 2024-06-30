@@ -77,7 +77,7 @@ export const Main = () => {
         console.error('Invalid data format:', data);
       }
     } catch (error) {
-      console.error('There was a problem with your fetch operation:', error);
+      console.error('There was a problem with your game fetch operation:', error);
     }
   };
 
@@ -106,7 +106,7 @@ export const Main = () => {
         console.log("return data ===> ", data);
       })
       .catch(error => {
-        console.error('There was a problem with your fetch operation:', error);
+        console.error('There was a problem with your update points fetch operation:', error);
       });
   }, [id, points]);
 

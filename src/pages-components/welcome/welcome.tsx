@@ -75,7 +75,7 @@ export const WelcomePage = () => {
       setSrc("/avatars/avatar-" + id + ".png");
     })
     .catch(error => {
-      console.error('There was a problem with your fetch operation:', error);
+      console.error('There was a problem with your TOPPIck fetch operation:', error);
     });
   }
 
@@ -119,7 +119,7 @@ export const WelcomePage = () => {
         console.log("response");
       })
       .catch(error => {
-        console.error('There was a problem with your fetch operation:', error);
+        console.error('There was a problem with your loginuser fetch operation:', error);
       });
     }
   }, [initData])
