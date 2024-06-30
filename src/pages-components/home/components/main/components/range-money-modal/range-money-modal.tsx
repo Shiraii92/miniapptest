@@ -6,7 +6,7 @@ import { Button } from "@/common";
 import { Props } from "./types";
 import { Points, Range } from "./components";
 import { useState } from "react";
-import {userStore,tmpbetStore,boardStore,gameStore} from '../../../../../../stores/store'
+import { userStore, tmpbetStore, boardStore } from '../../../../../../stores/store';
 
 export const RangeMoneyModal = ({ open, close }: Props) => {
   type UserGroup = {
@@ -21,10 +21,11 @@ export const RangeMoneyModal = ({ open, close }: Props) => {
     round: number;
     groups: UserGroup[];
   }
+
   const [step, setStep] = useState<"range" | "points">("range");
   const userName = userStore((state) => state.username);
   const playerid = tmpbetStore((state) => state.playerid);
-  const betAmount = tmpbetStore((state => state.betAmount))
+  const betAmount = tmpbetStore((state => state.betAmount));
   const setPoints = userStore((state) => state.setPoints);
   const setBet = boardStore((state) => state.setBet);
 
@@ -32,10 +33,16 @@ export const RangeMoneyModal = ({ open, close }: Props) => {
     if (step === "range") {
       setStep("points");
     } else {
-      fetch("https://miniapptest-backend2.vercel.app/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
-      // fetch("http://localhost:4000/user/bet/?username=" + userName + "&womenId=" + playerid + "&point=" + betAmount, {
-        method: 'GET',
-        headers: {"Access-Control-Allow-Origin" : "*"}
+      fetch("https://miniapptest-backend2.vercel.app/user/bet", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          username: userName,
+          womenId: playerid,
+          point: betAmount,
+        })
       })
         .then(response => {
           if (!response.ok) {

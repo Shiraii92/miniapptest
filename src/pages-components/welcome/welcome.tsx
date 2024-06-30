@@ -58,26 +58,31 @@ export const WelcomePage = () => {
   };
 
   async function StoreTopPick() {
-    fetch("https://miniapptest-backend2.vercel.app/user/selectTopPick/?womenId=" + id + "&id=" + userId, {
-      method: 'GET',
+    fetch("https://miniapptest-backend2.vercel.app/user/selectTopPick", {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
-      }
+      },
+      body: JSON.stringify({
+        womenId: id,
+        username: userId
+      })
     }).then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       return response.json(); // Parse the response as JSON
     })
-    .then((id) => {
+    .then((data) => {
       setTopPick(id);
       setName(womens.at(id-1)?.name);
       setSrc("/avatars/avatar-" + id + ".png");
     })
     .catch(error => {
-      console.error('There was a problem with your TOPPIck fetch operation:', error);
+      console.error('There was a problem with your TOP PICK fetch operation:', error);
     });
-  }
+}
+
 
   useEffect(() => {
     if(initData?.user?.username != null){
