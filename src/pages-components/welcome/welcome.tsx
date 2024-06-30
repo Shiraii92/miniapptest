@@ -118,8 +118,10 @@ export const WelcomePage = () => {
         setavatar(data.userInfo.avatar);
         setTopPick(data.userInfo.top_pick);
         setGameStatus(data.gameStatus);
-        setRoundId(data.currentRound.roundId);
-        setEndAt(data.currentRound.endAt);
+        if (data.currentRound) {
+          setRoundId(data.currentRound.roundId);
+          setEndAt(data.currentRound.endAt);
+        }
         setVotes(data.userinfo.votes);
         console.log("response");
       })
