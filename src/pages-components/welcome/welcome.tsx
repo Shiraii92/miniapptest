@@ -122,7 +122,7 @@ export const WelcomePage = () => {
         console.error('There was a problem with your fetch operation:', error);
       });
     }
-  }, [initData, setUserName, setLoading, setIsFirst, setId, setPoints, setavatar, setTopPick, setGameStatus, setRoundId, setEndAt, setVotes]);
+  }, [initData])
   
 
   if (topPick > 0) {
