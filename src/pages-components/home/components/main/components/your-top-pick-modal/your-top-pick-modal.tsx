@@ -42,7 +42,7 @@ export const YourTopPickModal = ({ open, close }: Props) => {
           Your TOP PICK is {name}
         </h1>
         <p className='text-base text-[#FCFCFC] my-2 font-normal leading-[19.2px] tracking-[-0.40799999237060547px] text-center'>
-          If your projects wins, you will get{' '}
+          If your project wins, you will get{' '}
         </p>
         <div className='flex justify-center'>
           <h3
